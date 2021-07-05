@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "songs",
+  "info": {
+    "name": "Song",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Lyrics": {
+      "type": "richtext"
+    },
+    "Spotify": {
+      "type": "string"
+    },
+    "AppleMusic": {
+      "type": "string"
+    },
+    "YouTube": {
+      "type": "string"
+    },
+    "track_lists": {
+      "collection": "track-list"
+    },
+    "releases": {
+      "via": "songs",
+      "collection": "track-list"
+    },
+    "release": {
+      "via": "songs",
+      "collection": "release"
+    }
+  }
+}

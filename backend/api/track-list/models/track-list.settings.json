@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tracklists",
+  "info": {
+    "name": "TrackList",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "release": {
+      "model": "release"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "songs": {
+      "collection": "song",
+      "via": "releases",
+      "dominant": true
+    }
+  }
+}

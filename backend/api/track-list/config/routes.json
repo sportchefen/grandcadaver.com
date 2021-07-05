@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/track-lists",
+      "handler": "track-list.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/track-lists/count",
+      "handler": "track-list.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/track-lists/:id",
+      "handler": "track-list.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/track-lists",
+      "handler": "track-list.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/track-lists/:id",
+      "handler": "track-list.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/track-lists/:id",
+      "handler": "track-list.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
