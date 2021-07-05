@@ -1,0 +1,89 @@
+.preamble {
+	margin: 10px 0;
+	font-size: 5vw;
+	letter-spacing: 0.125em;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.links {
+	.content {
+		text-align: center;
+	}
+	a {
+		display: block;
+		padding: 4px 0;
+	}
+}
+
+.grid section {
+	flex: 1;
+	&.covers {
+		display: flex;
+		width: 100%;
+		.content {
+			background: none;
+			display: flex;
+			padding: 0;
+			.stream {
+				background-color: rgba(0, 0, 0, 0.3);
+				flex: 0.5;
+				font-size: 2em;
+				margin-right: 1px;
+				text-align: center;
+
+				a {
+					display: inline-block;
+					padding: 10px;
+				}
+				&:last-of-type {
+					margin-right: 0;
+				}
+			}
+		}
+		.live {
+			.content {
+				background-color: rgba(0, 0, 0, 0.3) !important;
+				padding-bottom: 40px;
+			}
+		}
+		@include md {
+			background-color: transparent;
+			&:last-of-type {
+				margin-right: 1px;
+			}
+		}
+	}
+	&.contact {
+		text-align: center;
+		font-size: 1.5em;
+		.content {
+			padding-bottom: 100px;
+		}
+	}
+	&.bandImg {
+		.content {
+			padding: 0;
+		}
+	}
+}
+
+.live {
+	margin-top: 1px;
+	.gig-date {
+		padding: 10px;
+		display: flex;
+		flex: 1;
+		flex-direction: row;
+		.date {
+			flex-basis: 30%;
+		}
+
+		@include md {
+			flex-direction: row;
+			.date {
+				flex: 0.3;
+			}
+		}
+	}
+}
