@@ -72,8 +72,8 @@ function MyApp({ Component, pageProps }) {
 			<Head>
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
-				<title>Grand Cadaver – Death Metal from Sweden</title>
-				<meta name="title" content="Grand Cadaver – Death Metal from Sweden" />
+				<title>Grand Cadaver – Death Metal from Sweden - official site</title>
+				<meta name="title" content="Grand Cadaver – Death Metal from Sweden - official site" />
 				<meta
 					name="description"
 					content="Grand Cadaver, for us, is a way to return to the rehearsal room, beer drinking, no holds barred Death Metal we grew up on."
@@ -81,7 +81,7 @@ function MyApp({ Component, pageProps }) {
 
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://grandcadaver.com/" />
-				<meta property="og:title" content="Grand Cadaver – Death Metal from Sweden" />
+				<meta property="og:title" content="Grand Cadaver – Death Metal from Sweden - official site" />
 				<meta
 					property="og:description"
 					content="Grand Cadaver, for us, is a way to return to the rehearsal room, beer drinking, no holds barred Death Metal we grew up on."
@@ -90,7 +90,7 @@ function MyApp({ Component, pageProps }) {
 
 				<meta property="twitter:card" content="summary_large_image" />
 				<meta property="twitter:url" content="https://grandcadaver.com/" />
-				<meta property="twitter:title" content="Grand Cadaver – Death Metal from Sweden" />
+				<meta property="twitter:title" content="Grand Cadaver – Death Metal from Sweden - official site" />
 				<meta
 					property="twitter:description"
 					content="Grand Cadaver, for us, is a way to return to the rehearsal room, beer drinking, no holds barred Death Metal we grew up on."

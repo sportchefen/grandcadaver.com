@@ -182,6 +182,26 @@ export default function Home() {
 									width="1280px"
 									height="853px"
 								/>
+								<p>
+									GRAND CADAVER was formed by five swedes in the early summer of 2020. Everyone has
+									been involved in the Swedish extreme music scene since its birth in the mid ’80s,
+									and forward – from Thrash Metal to Stockholm Death Metal to Gothenburg Death Metal
+									to Doom Metal and Progressive Metal. Grand Cadaver is meant to celebrate our past
+									but also embrace where we are today, while also hanging out with friends that share
+									the same love for the extreme.
+									<br />
+									<br />
+									Christian Jansson – bass
+									<br />
+									Mikael Stanne – vocals
+									<br />
+									Daniel Liljekvist – drums
+									<br />
+									Alex Stjernfeldt – guitar
+									<br />
+									Stefan Lagergren - guitar
+									<br />
+								</p>
 							</div>
 						</section>
 						<section className="contact">
