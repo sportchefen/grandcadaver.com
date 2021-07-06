@@ -1,6 +1,23 @@
 .bit-widget-container {
 	div {
 		.bit-widget {
+			padding-bottom: 0;
+			.bit-nav-bar-container {
+				padding-left: 24px;
+				.bit-nav-bar {
+					display: none;
+				}
+			}
+			.bit-upcoming-events {
+				margin: 0;
+				.bit-event {
+					padding: 10px 24px;
+
+					.bit-venue {
+						font-weight: 700;
+					}
+				}
+			}
 		}
 	}
 }
